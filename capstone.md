@@ -1,4 +1,12 @@
 ##This  a markdown file
+
+Pulling data - data is either national, by state, by city, by Metropolitian Statistical Area (MSA), by county.
+I made the decision to look at MSA. Since when you retire you tend to retire to a region not to a specific region. For example if I want to retire to Asheville, I will look in Asheville and the surrounding area.
+
+My concern is the consistency of the data. I am pulling data from different sources - government, non-profits and commerical sites. Some data is actual numbers, rankings, index, percentages.
+
+
+
 Target = change of 55+ population or 64+ population
 source of target = http://www.census.gov/population/metro/data/pop_data.html
 Data is from the 2000 and 2010 US Census
