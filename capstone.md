@@ -1,7 +1,7 @@
 ##This  a markdown file
 
 Pulling data - data is either national, by state, by city, by Metropolitian Statistical Area (MSA), by county.
-I made the decision to look at MSA. Since when you retire you tend to retire to a region not to a specific region. For example if I want to retire to Asheville, I will look in Asheville and the surrounding area.
+I made the decision to look at MSA. Since when you retire you tend to retire to a region not to a specific region. For example if I want to retire to Asheville, I will look in Asheville, NC and the surrounding area.
 
 My concern is the consistency of the data. I am pulling data from different sources - government, non-profits and commerical sites. Some data is actual numbers, rankings, index, percentages.
 
@@ -9,12 +9,14 @@ My concern is the consistency of the data. I am pulling data from different sour
 
 Target = change of 55+ population or 64+ population
 source of target = http://www.census.gov/population/metro/data/pop_data.html
-Data is from the 2000 and 2010 US Census and from 2016 estimates
+Data is from the 2000 and 2010 US Census and from 2015 estimates
+Once the model is created it can be used for the 2020 census
 
 Features
 ## Crime data from FBI Uniform Crime Reporting Statistics
+by state cannot do county since smaller is agencies. 
 source of crime feature = http://www.ucrdatatool.gov/Search/Crime/State/OneYearofData.cfm
-Data is from 2000
+Found data from 2000 but since I changed my direction I uploaded 2011
 
 ## Purchasing power by metro area from the Tax Foundation
 http://taxfoundation.org/blog/real-value-100-metropolitan-areas-0
@@ -25,9 +27,26 @@ The data is from 2013 and only has 100 cities - I may have to get another file
 ## Tax Burden by state from the Tax Foundation
 census-cbsa-to-county-fips-2013.csv
 'https://raw.githubusercontent.com/TaxFoundation/data/income-tax-update/facts-and-figures/2015/02-state-local-tax-burden-fy2011.csv')
-The data is from 2011  just found 2005
+The data is from 2011  just found 2005 but will not be using it
 
-# What I can get
+# number of hospitals by state 2009
+Medicare.gov
+
+# College per State 2010
+https://nces.ed.gov/programs/digest/d10/tables/dt10_276.asp
+
+# Unemployment by state and county  education and 
+http://data.ers.usda.gov/reports.aspx?ID=18242
+https://www.ers.usda.gov/data-products/county-level-data-sets/download-data.aspx
+
+# housing
+Found 2016 market health by Metro
+
+
+# Income
+
+
+# What I can get from 2005
 GDP for metro area 2005-now
 http://www.bea.gov/regional/downloadzip.cfm
 Employment by county 2005
